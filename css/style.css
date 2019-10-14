@@ -1,6 +1,4 @@
-*,
-*::before,
-*:after {
+*{
   	box-sizing: border-box;
 	transition: all .1s ease-in;
 }
@@ -12,10 +10,10 @@ body{
 	margin: 0 auto;
 	color: white;
 	min-height: 100%;
-}
-.ba-container{
 	background: #3399cc;
 	border: 20px solid #2b81ac;
+}
+.ba-container{
 	padding: 0 50px;
 	margin: 0 auto;
 	max-width: 1400px;
